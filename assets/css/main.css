@@ -39,6 +39,10 @@ nav ul li {
   padding-left: 0.7em;
 }
 
+ul {
+      padding-inline-start: 0;
+}
+
 
 /*main body settings*/
 .container {
@@ -83,8 +87,25 @@ nav ul li {
   width: 80%;
 }
 
+.skills {
+  width:16%;
+}
 
+/*Tinkering with img sizes*/
+.Deloitte {
+  width: 70%;
+  padding-top: 1.6em;
+}
 
+.guy-carpenter {
+  width: 95%;
+  padding-top: 0.5em;
+}
+
+.bcg {
+  width: 60%;
+  padding-top: 1.4em;
+}
 
 /* Suggested by W3School. Clear floats after the columns */
   .row:after {
@@ -115,23 +136,18 @@ nav ul li {
   padding-bottom: 0;
 }
 
-ul li {
-  padding-bottom: 1em;
-}
-
  /* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   body {
-    width: 93%;
+    width: 90%;
   }
   .column, .left, .middle, .right {
     width: 100%;
   }
-
   .left {
     padding-top: 3em;
   }
-  
+
   nav {
     position: static;
     text-align: center;
