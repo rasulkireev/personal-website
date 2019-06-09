@@ -48,6 +48,7 @@ nav ul li {
 /*first section About*/
 .row {
   padding: 0 1em;
+  padding-bottom: 1em;
   margin: auto;
 }
 
@@ -72,6 +73,18 @@ nav ul li {
 .middle {
    width: 40%;
 }
+
+/*first section Experience*/
+.logo {
+  width: 20%;
+}
+
+.description {
+  width: 80%;
+}
+
+
+
 
 /* Suggested by W3School. Clear floats after the columns */
   .row:after {
@@ -114,6 +127,11 @@ ul li {
   .column, .left, .middle, .right {
     width: 100%;
   }
+
+  .left {
+    padding-top: 3em;
+  }
+  
   nav {
     position: static;
     text-align: center;
