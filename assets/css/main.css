@@ -46,7 +46,7 @@ ul {
 
 /*main body settings*/
 .container {
-  margin-top: 6.5em;
+  margin-top: 6.8em;
 }
 
 /*first section About*/
@@ -80,11 +80,11 @@ ul {
 
 /*first section Experience*/
 .logo {
-  width: 20%;
+  width: 19%;
 }
 
 .description {
-  width: 80%;
+  width: 79%;
 }
 
 .skills {
@@ -132,9 +132,23 @@ ul {
 }
 
 .small {
-  margin-bottom: 0;
-  padding-bottom: 0;
+  margin: 0;
+  padding: 0;
 }
+
+.now-bullet {
+  padding-bottom: 0.1em;
+}
+
+.now-list {
+  list-style-position: inside;
+  list-style-type: none;
+}
+
+.subheading {
+  text-decoration: underline;
+  font-size: 1.3em;
+ }
 
  /* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
